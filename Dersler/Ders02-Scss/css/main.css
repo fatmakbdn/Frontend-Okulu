@@ -1,6 +1,39 @@
-.container{
-    display: flex;
+.body {
+  background-color: purple;
 }
-.container:hover{
-    background-color: darkgray;
+
+.container {
+  display: flex;
 }
+
+.box1, .box3 {
+  background-color: pink;
+  width: 150px;
+  height: 400px;
+}
+
+.box2 {
+  background-color: orange;
+  width: 600px;
+  height: 400px;
+}
+.box2:hover {
+  background-color: blue;
+  width: 800px;
+  height: 1200px;
+}
+
+.box3 {
+  width: 500px;
+}
+
+.box4 {
+  background-color: greenyellow;
+  width: 150px;
+  height: 400px;
+}
+.box4.deneme {
+  background-color: aquamarine;
+}
+
+/*# sourceMappingURL=main.css.map */
