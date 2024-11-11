@@ -1,17 +1,33 @@
 let value;
 
-value = document;
-value = document.URL;
-value = document.title;
-value = document.location;
-value = document.location.hostname;
-value = document.scripts[0];
-value = document.links;
-value = document.links[document.links.length - 1].getAttribute("class");
+// value = document;
+// value = document.URL;
+// value = document.title;
+// value = document.location;
+// value = document.location.hostname;
+// value = document.scripts[0];
+// value = document.links;
+// value = document.links[document.links.length - 1].getAttribute("class");
+// value = document.links[document.links.length - 1].classList;
 
+//* ID ile seçme
+// value = document.getElementById("title");
+// value = document.getElementById("title").textContent;
+// value = document.getElementById("title").innerHTML;
 
-// Eleman oluşturma
+//* Class ile seçme
+// value = document.getElementsByClassName("text");
+// value = document.getElementsByClassName("text")[0];
 
+//* Tag ile seçme
+// value = document.getElementsByTagName("p");
+
+//* Query ile seçme
+// value = document.querySelector("#title");
+// value = document.querySelectorAll(".text");
+// value = document.querySelectorAll("span");
+
+//* Eleman oluşturma
 const button = document.createElement("a");
 button.id = "denemeButon";
 button.className = "btn btn-danger";
@@ -26,7 +42,9 @@ value = document.getElementById("denemeButon");
 value.addEventListener("click", function() {
     console.log("Tıklama işlemi gerçekleşti");
 });
-
-
-
 console.log(value);
+
+const textInput = document.querySelector("#text-input");
+textInput.addEventListener("keyup", () => console.log(textInput.value));
+textInput.addEventListener("focus", () => (textInput.value = ""));
+textInput.addEventListener("blur", () => console.log("Çıkış yapıldı"));

@@ -291,11 +291,11 @@
 
 //? Karşılaştırma Operatörleri
 
-let value;
-a = 10;
-b = 20;
-c = "10";
-d = 10;
+// let value;
+// a = 10;
+// b = 20;
+// c = "10";
+// d = 10;
 
 // value = a == c; // Eşit mi?
 // value = a === c; // Tip ve değer eşit mi?
@@ -316,41 +316,166 @@ d = 10;
 
 //? || (Or) Operatörü
 
-value = a == b || b < a;
+// value = a == b || b < a;
 
-console.log(value);
+// console.log(value);
 
 //? Koşullar - Conditions 
 
+//* example
+
+// let value;
 // let a = 10;
 // let b = 20;
 
-// if(a >b) {
+// if(a > b) {
 //     value = `${a} büyüktür ${b}`;
 // } else if (a == b) {
-
+//     value = `${a} eşittir ${b}`;
+// } else {
+//     value = `${a} küçüktür ${b}`;
 // }
+// console.log(value);
+
+//**example
+
+// let value;
+// const islem = 5;
+
+// switch (islem) {
+//     case 1:
+//         value = "İşlem 1";
+//         break;
+//     case 2:
+//         value = "İşlem 2";
+//         break;
+//     case 3:
+//         value = "İşlem 3";
+//         break;
+//     case 4:
+//         value = "İşlem 4";
+//         break;
+//     default:
+//         value = "Geçersiz işlem";
+//         break;
+// }
+// console.log(value);
 
 //?Döngüler - Loops
 
 //* For Döngüsü
+
+//*example
 // for (let i = 0; i < 10; i++) {
-//     if (i == 3) {
-//         // break;
+//     if (i == 3) {        
+        //break;
 //         continue;
 //     }
 //     console.log(i);
 // }
 
+//**example
 // const langs = ["Javascript", "CSS3", "SCSS", "Python"];
 
 // for (let index = 0; index < langs.length; index++) {
+
 //     console.log(langs[index]);
 // }
 
-// Functions - Fonksiyonlar
+//* While Döngüsü
+
+//*
+// let i = 0;
+
+// while (i < 10) {
+//     console.log(i);
+//     i++;
+// }
+
+//**
+// let i = 0;
+
+//while (i < 10) {
+//     if (i == 3) {
+//         i++;
+//         continue;
+//     }
+//     console.log(i);
+//     i++;
+// }
+
+//* Do while Döngüsü
+
+//
+// let i = 0;
+// do {
+//     console.log(i);
+//     i++;
+// } while (i < 11);
+
+//* forEach Döngüsü
+
+//
+// const langs = ["HTML5", "CSS3", "SCSS", "Javascript"];
+
+// langs.forEach(function (lang, index) {
+//     console.log(lang, index);
+// });
+
+//* Map Döngüsü
+
+//
+// const names = ["fatma", "alperen"];
+
+// names.map(function (fatma, alperen) {
+//     console.log(names);
+// });
+
+
+//? Functions - Fonksiyonlar
 
 // function merhaba(){
 //     console.log("Merhaba");
 // }
 // merhaba();
+
+//*
+// function merhaba() {
+//     return "Merhaba";
+// }
+// console.log(merhaba());
+
+//**
+// function user(name, age) {
+//     console.log(`Isim:${name} Yaş: ${age}`);
+// }
+// user("Fatma", 27);
+
+//*** 
+// function user(name = "Bilgi Yok", age = "Bilgi Yok") {
+//     console.log(`İsim: ${name} Yaş: ${age}`);
+// }
+// user("Fatma");
+
+//* Return Function
+
+//* 
+// function square(x) {
+//     return x * x;
+// }
+// const result = square(5) * 3;
+// console.log(result);
+
+//* Arrow Function
+
+//*
+// const square = (x) => {
+//     return x * x;
+// }
+// console.log(square(5));
+// console.log(square(7));
+// console.log(square(9));
+
+//**
+// const square = (x) => x * x;
+// console.log(square(6));
