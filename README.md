@@ -1,7 +1,8 @@
 # Frontend-Okulu;
-Frontend-Okulu reposu benim Coderspace tarafındand düzenlenen 4 haftalık HTML, CSS, SCSS, Javascrip ve React eğitimi sırasında öğrendiğim temel teorik bilgi ve mini projeleri içermektedir. <br>
+Frontend-Okulu reposu Coderspace tarafından düzenlenen 4 haftalık HTML, CSS, SCSS, Javascrip ve React eğitimi sırasında öğrendiğim temel teorik bilgi ve mini projeleri içermektedir. <br>
 Web geliştirme konusunda temel konuları ve pratik uygulamaları bir araya getiren bir öğrenme deposudur. Bu repo, frontend alanında yeni başlayanlar için temel bilgileri bulabilirken, orta seviye de geliştiriciler için bir referans noktası olmayı hedeflemektedir. <br>
 <hr><br>
+
 ## Proje İçeriği
 
 **Bu repo aşağıdaki konuları kapsar:** 
@@ -27,7 +28,7 @@ Web geliştirme konusunda temel konuları ve pratik uygulamaları bir araya geti
     * HTTP istekleri ve asenkron işlemler 
 <hr> <br>
 
-## Hedef Kitle
+### Hedef Kitle
 
 *Bu repo, şu kişiler için faydalı olacaktır:* <br>
 
@@ -35,10 +36,10 @@ Web geliştirme konusunda temel konuları ve pratik uygulamaları bir araya geti
   **Orta seviye geliştiriciler:** Temel bilgilerini tazelemek ve yeni örneklerle pratik yapmak isteyenler. <br>
   **Öğrenciler:** Frontend geliştirme konularında notlara ve kaynaklara ihtiyaç duyan öğrenciler. <br>
 
-## Proje Yapısı <br>
+### Proje Yapısı <br>
 
-  **Ders01-Html/:** HTML ile ilgili notlar ve örnek projeler. <br>
-  **Ders02-Css/:** CSS özellikleri ve uygulama örnekleri. <br>
-  **Ders03-Bootstrap/:** Hızlı tasarım için Bootstrap örnekleri. <br>
-  **Ders04-Js/:** JavaScript temel ve ileri düzey konular. <br>
-  **Ders05-Http-Async/:** Veri çekme ve API entegrasyonu. <br>
+  * **Ders01-Html/:** HTML ile ilgili notlar ve örnek projeler. <br>
+  * **Ders02-Css/:** CSS özellikleri ve uygulama örnekleri. <br>
+  * **Ders03-Bootstrap/:** Hızlı tasarım için Bootstrap örnekleri. <br>
+  * **Ders04-Js/:** JavaScript temel ve ileri düzey konular. <br>
+  * **Ders05-Http-Async/:** Veri çekme ve API entegrasyonu. <br>
