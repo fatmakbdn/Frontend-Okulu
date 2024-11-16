@@ -1,4 +1,4 @@
-# Frontend-Okulu;
+# Frontend-Okulu
 Frontend-Okulu reposu Coderspace tarafından düzenlenen 4 haftalık HTML, CSS, SCSS, Javascrip ve React eğitimi sırasında öğrendiğim temel teorik bilgi ve mini projeleri içermektedir. <br>
 Web geliştirme konusunda temel konuları ve pratik uygulamaları bir araya getiren bir öğrenme deposudur. Bu repo, frontend alanında yeni başlayanlar için temel bilgileri bulabilirken, orta seviye de geliştiriciler için bir referans noktası olmayı hedeflemektedir. <br>
 <hr><br>
